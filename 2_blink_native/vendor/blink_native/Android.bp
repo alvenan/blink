@@ -1,5 +1,5 @@
-    cc_binary {
-        name: "native_blink",
-        vendor: true,
-        srcs: [ "blink.cpp" ],
-    }
+cc_binary {
+    name: "native_blink",
+    vendor: true,
+    srcs: [ "blink.cpp" ],
+}
