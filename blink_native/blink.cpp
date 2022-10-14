@@ -2,7 +2,7 @@
 #include<fstream>
 #include<chrono>
 #include<thread>
-#include <signal.h>
+#include<signal.h>
 
 using namespace std;
 using namespace std::this_thread;
@@ -18,7 +18,7 @@ void unexport(int signum);
 // Nome do gpio em que o LED está conectado
 static const string led = "12";
 
-    // Caminhos para pasta e arquivos do driver
+// Caminhos para pasta e arquivos do driver
 static const string gpio_driver_path = "/sys/class/gpio";
 static const string export_path = gpio_driver_path + "/export";
 static const string unexport_path = gpio_driver_path + "/unexport";
