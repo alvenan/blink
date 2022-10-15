@@ -1,9 +1,9 @@
-package vendor.android_blink.ledservice;
+package vendor.blink.ledservice;
 
 import android.content.Context;
 
 class LedServiceImpl extends ILedService.Stub {
-    public static final String LED_PERM = "vendor.android_blink.ledservice.permission.LED";
+    public static final String LED_PERM = "vendor.blink.ledservice.permission.LED";
     private final Context mContext;
 
     static {

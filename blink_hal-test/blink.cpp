@@ -1,10 +1,10 @@
-#include<vendor/android_blink/led/1.0/ILed.h>
+#include<vendor/blink/led/1.0/ILed.h>
 #include<iostream>
 #include<chrono>
 #include<thread>
 #include<signal.h>
 
-using vendor::android_blink::led::V1_0::ILed;
+using vendor::blink::led::V1_0::ILed;
 
 using namespace std;
 using namespace android;

@@ -1,4 +1,4 @@
-package vendor.android_blink.led@1.0;
+package vendor.blink.led@1.0;
 
 interface ILed {
     oneway ledON();

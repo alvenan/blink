@@ -3,10 +3,10 @@ android_app {
     srcs: [ "src/**/*.java" ],
     product_specific: true,
     required: [
-        "vendor.android_blink.ledservice",
+        "vendor.blink.ledservice",
         "libledservice_jni",
     ],
-    static_libs: [ "vendor.android_blink.ledservice" ],
+    static_libs: [ "vendor.blink.ledservice" ],
     optimize: {
         enabled: false
     },
@@ -16,9 +16,9 @@ android_app {
 }
 
 java_library_static {
-    name: "vendor.android_blink.ledservice",
+    name: "vendor.blink.ledservice",
     vendor: true,
-    srcs: [ "src/vendor/android_blink/ledservice/ILedService.aidl" ],
+    srcs: [ "src/vendor/blink/ledservice/ILedService.aidl" ],
     installable: true,
     sdk_version: "current",
 }

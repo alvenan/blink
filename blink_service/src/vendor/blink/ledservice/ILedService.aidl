@@ -1,4 +1,4 @@
-package vendor.android_blink.ledservice;
+package vendor.blink.ledservice;
 
 interface ILedService {
     void ledON();

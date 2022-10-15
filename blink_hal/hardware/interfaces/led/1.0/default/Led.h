@@ -1,10 +1,10 @@
 #pragma once
 
-#include <vendor/android_blink/led/1.0/ILed.h>
+#include <vendor/blink/led/1.0/ILed.h>
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
 
-namespace vendor::android_blink::led::implementation {
+namespace vendor::blink::led::implementation {
 
     using ::android::hardware::hidl_array;
     using ::android::hardware::hidl_memory;

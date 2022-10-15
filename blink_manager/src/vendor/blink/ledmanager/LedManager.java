@@ -1,9 +1,9 @@
-package vendor.android_blink.ledmanager;
+package vendor.blink.ledmanager;
 
 import java.lang.reflect.*;
 import android.os.RemoteException;
 import android.os.IBinder;
-import vendor.android_blink.ledservice.*;
+import vendor.blink.ledservice.*;
 
 public class LedManager {
 

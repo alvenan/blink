@@ -1,19 +1,19 @@
 java_library {
-    name: "vendor.android_blink.ledmanager",
+    name: "vendor.blink.ledmanager",
     vendor: true,
     srcs: [ "src/**/*.java" ],
     required: [ 
-        "vendor.android_blink.ledservice",
-        "vendor.android_blink.ledmanager.xml" 
+        "vendor.blink.ledservice",
+        "vendor.blink.ledmanager.xml" 
     ],
-    static_libs: [ "vendor.android_blink.ledservice" ],
+    static_libs: [ "vendor.blink.ledservice" ],
     sdk_version: "current",
     installable: true,
 }
 
 prebuilt_etc {
-    name: "vendor.android_blink.ledmanager.xml",
-    src: "vendor.android_blink.ledmanager.xml",
+    name: "vendor.blink.ledmanager.xml",
+    src: "vendor.blink.ledmanager.xml",
     sub_dir: "permissions",
     vendor: true,
 }

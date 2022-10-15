@@ -3,7 +3,7 @@
 
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
-using vendor::android_blink::led::implementation::Led;
+using vendor::blink::led::implementation::Led;
 
 #define TAG "LedHalService"
 

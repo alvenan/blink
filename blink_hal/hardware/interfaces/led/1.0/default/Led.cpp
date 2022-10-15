@@ -3,13 +3,13 @@
 #include<log/log.h>
 
 // Definção de TAG para logs
-#define TAG "Led-HAL"
+#define TAG "LedHAL"
 
 // Definições de estados
 #define ON "1"
 #define OFF "0"
 
-namespace vendor::android_blink::led::implementation {
+namespace vendor::blink::led::implementation {
 
     using namespace std;
 

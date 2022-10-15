@@ -1,4 +1,4 @@
 hidl_package_root {
-    name: "vendor.android_blink",
-    path: "vendor/android_blink/blink_hal/hardware/interfaces",
+    name: "vendor.blink",
+    path: "vendor/blink/blink_hal/hardware/interfaces",
 }
