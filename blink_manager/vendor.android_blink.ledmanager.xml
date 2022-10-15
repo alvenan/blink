@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library>
+        name="vendor.android_blink.ledmanager"
+        file="/vendor/framework/vendor.android_blink.ledmanager.jar"
+    </library>
+</permissions>

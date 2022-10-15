@@ -5,7 +5,7 @@ using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 using vendor::android_blink::led::implementation::Led;
 
-#define TAG "LedService"
+#define TAG "LedHalService"
 
 int main() {
     configureRpcThreadpool(16, true);

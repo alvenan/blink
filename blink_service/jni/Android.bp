@@ -1,0 +1,11 @@
+cc_library_shared {
+    name: "libledservice_jni",
+    srcs: [ "vendor_android_blink_ledservice_LedServiceImpl.cpp" ],
+    vendor: true,
+    header_libs: [ "jni_headers" ],
+    shared_libs: [
+        "vendor.android_blink.led@1.0",
+        "libhidlbase",
+        "libutils",
+    ],
+}

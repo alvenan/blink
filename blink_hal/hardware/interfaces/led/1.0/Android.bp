@@ -4,11 +4,7 @@ hidl_interface {
     name: "vendor.android_blink.led@1.0",
     root: "vendor.android_blink",
     system_ext_specific: true,
-    srcs: [ 
-        "ILed.hal",
-    ],
-    interfaces: [
-        "android.hidl.base@1.0",
-    ],
+    srcs: [ "ILed.hal", ],
+    interfaces: [ "android.hidl.base@1.0", ],
     gen_java: true,
 }
