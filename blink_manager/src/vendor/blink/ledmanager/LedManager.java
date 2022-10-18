@@ -6,7 +6,6 @@ import android.os.IBinder;
 import vendor.blink.ledservice.*;
 
 public class LedManager {
-
     private static final String SERVICE_NAME = "led";
     private static LedManager instance;
     private static ILedService service;

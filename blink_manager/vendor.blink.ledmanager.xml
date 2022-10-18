@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
-    <library>
-        name="vendor.blink.ledmanager"
-        file="/vendor/framework/vendor.blink.ledmanager.jar"
-    </library>
+    <library name="vendor.blink.ledmanager"
+            file="/vendor/framework/vendor.blink.ledmanager.jar"/>
 </permissions>

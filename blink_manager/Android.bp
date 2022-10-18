@@ -2,10 +2,8 @@ java_library {
     name: "vendor.blink.ledmanager",
     vendor: true,
     srcs: [ "src/**/*.java" ],
-    required: [ 
-        "vendor.blink.ledservice",
-        "vendor.blink.ledmanager.xml" 
-    ],
+    required: [ "vendor.blink.ledservice",
+                "vendor.blink.ledmanager.xml" ],
     static_libs: [ "vendor.blink.ledservice" ],
     sdk_version: "current",
     installable: true,
